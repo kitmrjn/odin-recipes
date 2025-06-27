@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipes{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recipe-links{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#adobo{
+    width: 500px;   
+    height: auto;
+    text-align: center;
+    background-color: lightgreen;
+    display: border-box;
+    padding: 20px;
+    color: white;
+}
+
+.adobo-pic{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.adobo-ingredients{
+    font-style: italic;
+}
+
+.adobo-ingredients,
+.adobo-steps{
+    text-align: left;
+    margin-top: 10px;
+    
+}
+
+.adobo-steps{
+    line-height: 25px;
+}
